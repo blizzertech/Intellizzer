@@ -1,4 +1,4 @@
-name: AI Code Review
+name: Intellizzer AI Code Review
 
 on:
   pull_request:

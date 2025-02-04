@@ -41,7 +41,7 @@ Ready to revolutionize your code reviews? Follow these simple steps:
        runs-on: ubuntu-latest
        steps:
          - uses: actions/checkout@v3
-         - uses: your-org/intellizzer@main
+         - uses: blizzertech/Intellizzer@latest
            with:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
              OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
