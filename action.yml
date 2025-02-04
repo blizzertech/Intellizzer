@@ -13,7 +13,7 @@ inputs:
   OPENAI_API_MODEL:
     description: "OpenAI API model."
     required: false
-    default: "gpt-4o"
+    default: "gpt-4o-mini"
 
   OPENAI_API_ENDPOINT:
     description: "Custom OpenAI API endpoint URL (optional)"
@@ -35,7 +35,7 @@ inputs:
   BOT_NAME:
     description: "Name of the bot that will appear in comments"
     required: false
-    default: "Code Review Bot"
+    default: "Intellizzer"
 
   exclude:
     description: "Glob patterns to exclude files from the diff analysis (comma-separated)"

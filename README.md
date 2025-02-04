@@ -43,11 +43,11 @@ Ready to revolutionize your code reviews? Follow these simple steps:
            with:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
              OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-             OPENAI_API_MODEL: "gpt-4o" # Optional, defaults to gpt-4o
+             OPENAI_API_MODEL: "gpt-4o-mini" # Optional, defaults to gpt-4o-mini
              ENABLE_TELEGRAM_BOT: true
              TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
              TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-             BOT_NAME: "Code Review Bot" # Optional
+             BOT_NAME: "Intellizzer" # Optional
              exclude: "*.md,*.txt,package-lock.json,yarn.lock"
    ```
 
