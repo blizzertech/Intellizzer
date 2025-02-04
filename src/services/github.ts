@@ -90,7 +90,6 @@ export class GitHubService {
           console.log("Creating comment:", {
             path: comment.path,
             line: comment.line,
-            diff_hunk: comment.diff_hunk,
           });
 
           await this.octokit.pulls.createReviewComment({
@@ -99,10 +98,10 @@ export class GitHubService {
             pull_number,
             body: comment.body,
             path: comment.path,
-            line: comment.line,
+            position: comment.line,
+            line: comment.line, // Add the line parameter as required by the API
             commit_id: comment.commit_id,
             side: "RIGHT",
-            diff_hunk: comment.diff_hunk,
           });
 
           // Add a small delay between comments

@@ -11,7 +11,7 @@ export interface ReviewComment {
   path: string;
   line: number;
   commit_id: string;
-  diff_hunk: string;
+  diff_hunk?: string;
 }
 
 export interface AIReviewResponse {
