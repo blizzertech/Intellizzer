@@ -49,3 +49,4 @@ runs:
 branding:
   icon: "icons/logo.svg"
   color: "red"
+author: 'Blizzer'
