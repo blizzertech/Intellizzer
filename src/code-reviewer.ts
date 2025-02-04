@@ -18,7 +18,7 @@ export class CodeReviewer {
     this.openai = new OpenAIService();
     this.telegram = new TelegramService();
   }
-
+  //gjsal;kdgjsldgjldkgjs;ldkgjs
   async reviewPullRequest(): Promise<void> {
     try {
       const prDetails = await this.github.getPRDetails();
