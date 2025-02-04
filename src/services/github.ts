@@ -90,8 +90,15 @@ export class GitHubService {
           console.log("Creating comment:", {
             path: comment.path,
             line: comment.line,
-            diff_hunk: comment.diff_hunk,
           });
+
+          // Calculate position from diff_hunk
+          const position =
+            comment.diff_hunk
+              .split("\n")
+              .findIndex(
+                (line) => line.startsWith("+") || line.startsWith("-")
+              ) + 1;
 
           await this.octokit.pulls.createReviewComment({
             owner,
@@ -99,10 +106,11 @@ export class GitHubService {
             pull_number,
             body: comment.body,
             path: comment.path,
-            line: comment.line,
+            position,
+            line: comment.line, // Add required line parameter
             commit_id: comment.commit_id,
             side: "RIGHT",
-            diff_hunk: comment.diff_hunk,
+            in_reply_to: undefined, // Add optional in_reply_to parameter
           });
 
           // Add a small delay between comments

@@ -30,7 +30,7 @@ inputs:
   ENABLE_TELEGRAM_BOT:
     description: "Enable Telegram bot functionality"
     required: false
-    default: 'false'
+    default: "false"
 
   BOT_NAME:
     description: "Name of the bot that will appear in comments"
@@ -49,4 +49,4 @@ runs:
 branding:
   icon: "cpu"
   color: "red"
-author: 'Blizzer'
+author: "Blizzer"

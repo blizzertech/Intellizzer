@@ -7,7 +7,8 @@ export const config = {
   openai: {
     apiKey: core.getInput("OPENAI_API_KEY"),
     model: core.getInput("OPENAI_API_MODEL"),
-    apiEndpoint: core.getInput("OPENAI_API_ENDPOINT") || "https://api.openai.com/v1",
+    apiEndpoint:
+      core.getInput("OPENAI_API_ENDPOINT") || "https://api.openai.com/v1",
     queryConfig: {
       temperature: 0.2,
       max_tokens: 700,
@@ -19,7 +20,7 @@ export const config = {
   telegram: {
     botToken: core.getInput("TELEGRAM_BOT_TOKEN"),
     chatId: core.getInput("TELEGRAM_CHAT_ID"),
-    enableBot: core.getInput("ENABLE_TELEGRAM_BOT") === 'true',
+    enableBot: core.getInput("ENABLE_TELEGRAM_BOT") === "true",
   },
   bot: {
     name: core.getInput("BOT_NAME") || "Intellizzer",
