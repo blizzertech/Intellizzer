@@ -47,6 +47,6 @@ runs:
   main: "dist/index.js"
 
 branding:
-  icon: "icons/logo.svg"
+  icon: "cpu"
   color: "red"
 author: 'Blizzer'
