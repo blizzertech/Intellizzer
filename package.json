@@ -1,0 +1,29 @@
+{
+  "name": "intellizzer",
+  "version": "1.0.0",
+  "description": "AI powered code reviews",
+  "main": "lib/main.js",
+  "author": "Blizzer",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "package": "ncc build --source-map --license licenses.txt",
+    "format": "prettier --write .",
+    "lint": "prettier --check ."
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@octokit/rest": "^19.0.7",
+    "axios": "^1.7.9",
+    "minimatch": "^7.4.2",
+    "openai": "^4.20.1",
+    "parse-diff": "^0.11.1",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "@vercel/ncc": "^0.36.1",
+    "prettier": "^2.8.6",
+    "typescript": "^5.0.2"
+  }
+}
