@@ -47,5 +47,5 @@ runs:
   main: "dist/index.js"
 
 branding:
-  icon: "code"
+  icon: "icons/logo.svg"
   color: "red"
