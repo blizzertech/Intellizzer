@@ -1,5 +1,5 @@
 name: "Intellizzer"
-description: "Intelligent GitHub Action that transforms code reviews using advanced language models, providing sophisticated insights and recommendations for your pull requests"
+description: "An intelligent GitHub Action that enhances code reviews with advanced language models and pull request recommendations."
 
 inputs:
   GITHUB_TOKEN:
