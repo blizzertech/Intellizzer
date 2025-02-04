@@ -17,12 +17,10 @@ Ready to revolutionize your code reviews? Follow these simple steps:
 1. **Prepare Your Credentials**:
 
    - OpenAI API Key
-   - GitHub Token
    - Telegram Bot Token and Chat ID
 
 2. **Store Your Secrets**: Add the following secrets in your GitHub repository settings:
 
-   - `GITHUB_TOKEN`: GitHub authentication token
    - `OPENAI_API_KEY`: Your OpenAI API key
    - `TELEGRAM_BOT_TOKEN`: Telegram bot token
    - `TELEGRAM_CHAT_ID`: Telegram chat ID for notifications
@@ -53,7 +51,6 @@ Ready to revolutionize your code reviews? Follow these simple steps:
    ```
 
 4. **Customize Your Configuration**:
-   - Replace `your-org` with your GitHub username or organization
    - Adjust the `exclude` parameter to match your project's needs
    - Optionally specify a different OpenAI model or bot name
 
