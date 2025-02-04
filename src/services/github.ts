@@ -98,10 +98,12 @@ export class GitHubService {
             pull_number,
             body: comment.body,
             path: comment.path,
-            position: comment.line,
-            line: comment.line, // Add the line parameter as required by the API
+            line: comment.line,
             commit_id: comment.commit_id,
             side: "RIGHT",
+            start_line: comment.line, // Add start_line
+            start_side: "RIGHT", // Add start_side
+            subject_type: "line", // Add subject_type
           });
 
           // Add a small delay between comments
