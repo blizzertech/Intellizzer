@@ -66,7 +66,7 @@ Intellizzer analyzes your pull request changes using advanced language models. I
 
 ## 🤝 Contribute to Intellizzer!
 
-We thrive on collaboration! If you have ideas, suggestions, or improvements, we'd love to hear from you. Please check out our [CONTRIBUTE.md](CONTRIBUTE.md) for detailed guidelines on how to contribute to the project. Feel free to submit issues or pull requests.
+We thrive on collaboration! If you have ideas, suggestions, or improvements, we'd love to hear from you. Please check out our [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on how to contribute to the project. Feel free to submit issues or pull requests.
 
 ## 📝 License
 
