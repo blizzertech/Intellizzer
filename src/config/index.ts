@@ -22,7 +22,7 @@ export const config = {
     enableBot: core.getInput("ENABLE_TELEGRAM_BOT") === 'true',
   },
   bot: {
-    name: core.getInput("BOT_NAME") || "Code Review Bot",
+    name: core.getInput("BOT_NAME") || "Intellizzer",
   },
   excludePatterns: core
     .getInput("exclude")

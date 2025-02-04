@@ -35,7 +35,7 @@ inputs:
   BOT_NAME:
     description: "Name of the bot that will appear in comments"
     required: false
-    default: "Code Review Bot"
+    default: "Intellizzer"
 
   exclude:
     description: "Glob patterns to exclude files from the diff analysis (comma-separated)"

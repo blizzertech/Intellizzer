@@ -47,7 +47,7 @@ Ready to revolutionize your code reviews? Follow these simple steps:
              ENABLE_TELEGRAM_BOT: true
              TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
              TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-             BOT_NAME: "Code Review Bot" # Optional
+             BOT_NAME: "Intellizzer" # Optional
              exclude: "*.md,*.txt,package-lock.json,yarn.lock"
    ```
 
