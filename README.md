@@ -71,32 +71,3 @@ We thrive on collaboration! If you have ideas, suggestions, or improvements, we'
 ## 📝 License
 
 This project is proudly licensed under the MIT License. For details, check the [LICENSE](LICENSE) file.
-
-## 🌟 Contributors
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%">
-        <a href="https://github.com/yourusername">
-          <img src="https://github.com/yourusername.png" width="100px;" alt="Your Name"/>
-          <br />
-          <sub><b>Your Name</b></sub>
-        </a>
-        <br />
-        <a href="#" title="Code">💻</a>
-        <a href="#" title="Ideas">🤔</a>
-      </td>
-      <!-- Add more contributors following this pattern -->
-    </tr>
-  </tbody>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->

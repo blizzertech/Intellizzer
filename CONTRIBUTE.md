@@ -7,10 +7,12 @@ We appreciate your interest in contributing to Intellizzer. This document provid
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (version 20 or later)
 - Yarn package manager
 
 ### Setup
+
 1. Fork the repository
 2. Clone your forked repository
 3. Install dependencies:
@@ -21,13 +23,15 @@ We appreciate your interest in contributing to Intellizzer. This document provid
 ## Development Workflow
 
 ### Before Starting Development
-- **Create an Issue First**: 
+
+- **Create an Issue First**:
   - Before working on a new feature or bug fix, create an issue in the GitHub repository
   - Describe the proposed change, its motivation, and potential implementation approach
   - Wait for maintainer feedback and approval before beginning work
   - This helps prevent duplicate work and ensures alignment with project goals
 
 ### Branch Strategy
+
 - Create a new branch for each feature or bugfix
 - Use descriptive branch names:
   - `feature/add-new-feature`
@@ -36,17 +40,20 @@ We appreciate your interest in contributing to Intellizzer. This document provid
 - **Pull Requests should target the `dev` branch**
 
 ### Code Style
+
 - Follow TypeScript best practices
 - Use ESLint for code linting
 - Ensure all tests pass before submitting a pull request
 - **Run `yarn format` before creating a pull request to ensure consistent code formatting**
 
 ### Commit Messages
+
 - Use clear and descriptive commit messages
 - Follow the conventional commits format:
+
   ```
   <type>(optional scope): <description>
-  
+
   Examples:
   feat: add new code review feature
   fix: resolve GitHub API connection issue
@@ -56,6 +63,7 @@ We appreciate your interest in contributing to Intellizzer. This document provid
 ## Submitting Contributions
 
 ### Pull Request Process
+
 1. Create an issue describing your proposed change
 2. Get approval from project maintainers
 3. Ensure your code follows the project's coding standards
@@ -68,11 +76,13 @@ We appreciate your interest in contributing to Intellizzer. This document provid
    - Any additional context that helps reviewers understand the contribution
 
 ### Code Review
+
 - All submissions require review from project maintainers
 - Be open to feedback and constructive criticism
 - Respond to review comments promptly
 
 ## Reporting Issues
+
 - Use GitHub Issues to report bugs or suggest features
 - Provide detailed information:
   - Steps to reproduce
@@ -81,10 +91,12 @@ We appreciate your interest in contributing to Intellizzer. This document provid
   - Environment details (OS, Node.js version, etc.)
 
 ## Code of Conduct
+
 - Be respectful and inclusive
 - Harassment and discrimination are not tolerated
 
 ## Questions?
+
 If you have any questions, please open an issue or reach out to the maintainers.
 
 Thank you for contributing to Intellizzer! 🚀
